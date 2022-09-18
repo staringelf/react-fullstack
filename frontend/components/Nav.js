@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-export default function Nav () {
+export default function Nav() {
   return (
     <nav>
       <Link href="/products">Products</Link>
@@ -8,5 +8,5 @@ export default function Nav () {
       <Link href="/orders">Orders</Link>
       <Link href="/account">Account</Link>
     </nav>
-  )
+  );
 }
