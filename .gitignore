@@ -1,9 +1,11 @@
 node_modules/
 .DS_Store
 *.log
-.idea
 haters/
-variables.env
-variables.env.now
 .next/
-.vscode/
+.build/
+layout.md
+variables.env
+*.env
+.keystone
+*.db
